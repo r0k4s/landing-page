@@ -111,12 +111,42 @@ button {
 
 .container-01, .container-03 {
     width: 960px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
 }
 
 .cont-01-text {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    align-self: center;
+}
+
+.boxs {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+
+.box {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-img {
+
+    height: 150px;
+    border: 3px solid #1c61c2;
+    border-radius: 16px;
+}
+
+.box-text {
+    text-align: center;
 }
 
 .container-02 {
