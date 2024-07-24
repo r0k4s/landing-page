@@ -31,6 +31,15 @@ button {
 
 /* CONTAINERS OUTER BACKGROUNDS*/
 
+.dark-bg-header {
+    position: fixed;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
 .dark-bg {
     display: flex;
     justify-content: center;
