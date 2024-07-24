@@ -15,7 +15,7 @@ ul {
     gap: 16px;
 }
 
-a{
+a {
     text-decoration: inherit;
     color: inherit;
 }
@@ -171,10 +171,37 @@ button {
 
 /* CONTAINER 3 */
 
+.box-02 {
+    background-color:#3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    margin: 50px 0;
+    border-radius: 8px;
+    color:#E5E7EB
+}
+.text-top {
+    font-weight: 700;
+}
+.text-bottom {
+    font-weight: 100;
+}
 
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 8px 32px;
+    
+}
 /* FOOTER */
 
 .footer {
     width: 960px;
-    height: 60px;
+    height: 100px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
