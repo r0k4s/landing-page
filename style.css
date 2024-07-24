@@ -6,25 +6,7 @@ body {
     margin: 0;
 }
 
-.header {
-    background-color: #1F2937;
-    display: flex;
-    justify-content:space-between;
-    align-items: baseline;
-    padding: 8px;
-    width: 960px;
-}
-
-.header-bg {
-    display: flex;
-    justify-content: center;
-    background-color: #1F2937;
-}
-
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
+/* MAIN STUFF */
 
 ul {
     list-style: none;
@@ -37,8 +19,52 @@ a{
     text-decoration: inherit;
     color: inherit;
 }
+
+button {
+    background-color: #3882F6;
+}
+
+/* CONTAINERS OUTER BACKGROUNDS*/
+
+.dark-bg {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.white-bg {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.gray-bg {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    padding: 8px;
+    width: 960px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* HERO */
+
 .hero {
     background-color: #1F2937;
+    width: 960px;
 }
 
 .hero-main-text {
@@ -52,8 +78,10 @@ a{
     color: #E5E7EB;
 }
 
-button {
-    background-color: #3882F6;
+/* CONTAINERS */
+
+.container-01, .container-03 {
+    width: 960px;
 }
 
 .cont-01-text {
@@ -64,9 +92,17 @@ button {
 
 .container-02 {
     background-color: #E5E7EB;
+    width: 960px;
 }
 .quote-text {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 960px;
+    height: 60px;
 }
