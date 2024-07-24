@@ -107,7 +107,7 @@ button {
 
 }
 
-/* CONTAINERS */
+/* CONTAINER 1 */
 
 .container-01, .container-03 {
     width: 960px;
@@ -126,9 +126,11 @@ button {
 
 .boxs {
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
+    justify-content: center;
     padding-bottom: 60px;
+    width: 900px;
+    margin: auto;
+    gap: 60px;
 }
 
 .box {
@@ -149,15 +151,26 @@ button {
     text-align: center;
 }
 
+/* CONTAINER 2 */
+
 .container-02 {
     background-color: #E5E7EB;
-    width: 960px;
+    width: 800px;
+    padding: 80px;
 }
 .quote-text {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
 }
+
+.under-quote {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* CONTAINER 3 */
+
 
 /* FOOTER */
 
