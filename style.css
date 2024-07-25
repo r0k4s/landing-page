@@ -20,6 +20,10 @@ a {
     color: inherit;
 }
 
+b {
+    font-weight: 500;
+}
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -75,7 +79,7 @@ small {
     display: flex;
     align-items: center;
     gap: 16px;
-    padding-left: 30px;
+    padding-left: 60px;
 }
 
 .header-links {
@@ -150,6 +154,9 @@ small {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
+    color: #cc0000;
+    font-weight: 600;
 }
 
 .box-video {
@@ -158,6 +165,9 @@ small {
     flex-direction: column;
     gap: 10px;
     padding-top: 30px;
+    text-align: center;
+    color: #cc0000;
+    font-weight: 600;
 }
 
 .box-videos {
@@ -171,20 +181,11 @@ small {
     flex-wrap: wrap;
 }
 
-.box-img {
-    height: 200px;
-}
 .img {
     width: 200px;
     height: 200px;
     border-radius: 16px; 
     border: 3px solid #1c61c2;
-}
-
-.box-text {
-    text-align: center;
-    color: #cc0000;
-    font-weight: 600;
 }
 
 /* CONTAINER 2 */
@@ -236,7 +237,7 @@ small {
 .footer {
     width: 960px;
     height: 100px;
-    color: #F9FAF8;
+    color: #64410b;
     display: flex;
     justify-content: center;
     align-items: center;
