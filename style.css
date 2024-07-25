@@ -82,8 +82,6 @@ small {
     padding-left: 60px;
 }
 
-.header-links {
-}
 /* HERO */
 
 .hero {
@@ -241,7 +239,4 @@ small {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#a {
-    font-weight: 500;
 }
