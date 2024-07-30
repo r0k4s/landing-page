@@ -20,10 +20,6 @@ a {
     color: inherit;
 }
 
-b {
-    font-weight: 500;
-}
-
 button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -33,21 +29,18 @@ button {
     
 }
 
-small {
-    font-size: 9px;
-}
 /* CONTAINERS OUTER BACKGROUNDS*/
 
 .dark-bg-header {
     display: flex;
     justify-content: center;
-    background-color: #3b4cca;
+    background-color: #1F2937;
 }
 
 .dark-bg {
     display: flex;
     justify-content: center;
-    background-color: #ffde00;
+    background-color: #1F2937;
 }
 
 .white-bg {
@@ -65,10 +58,10 @@ small {
 /* HEADER */
 
 .header {
-    background-color: #3b4cca;
+    background-color: #1F2937;
     display: flex;
     justify-content:space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 8px;
     width: 960px;
 }
@@ -76,21 +69,17 @@ small {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding-left: 60px;
 }
 
 /* HERO */
 
 .hero {
-    background-color: #ffde00;
+    background-color: #1F2937;
     width: 960px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 100px;
     gap: 30px;
     
 }
@@ -103,6 +92,9 @@ small {
 }
 
 .hero-image {
+    width: 450px;
+    height: 200px;
+    background-color: gray;
     flex-shrink: 0;
     text-align: center;
     align-content: center;
@@ -111,13 +103,13 @@ small {
 .hero-main-text {
     font-size: 48px;
     font-weight: 800;
-    color: #cc0000;
+    color: #F9FAF8;
 
 }
 
 .hero-secondary-text {
     font-size: 18px;
-    color: #64410b;
+    color: #E5E7EB;
 
 }
 
@@ -134,56 +126,35 @@ small {
 .cont-01-text {
     font-size: 36px;
     font-weight: 800;
-    color: #3b4cca;
+    color: #1F2937;
     align-self: center;
 }
 
 .boxs {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 60px;
     width: 900px;
     margin: auto;
-    gap: 25px;
+    gap: 60px;
 }
 
 .box {
-    width: 200px;
+    width: 150px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    text-align: center;
-    color: #cc0000;
-    font-weight: 600;
 }
 
-.box-video {
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-top: 30px;
-    text-align: center;
-    color: #cc0000;
-    font-weight: 600;
-}
+.box-img {
 
-.box-videos {
-    height: 250px;
-}
-
-.memories {
-    display: flex;
-    align-items:baseline;
-    gap:15px;
-    flex-wrap: wrap;
-}
-
-.img {
-    width: 200px;
-    height: 200px;
-    border-radius: 16px; 
+    height: 150px;
     border: 3px solid #1c61c2;
+    border-radius: 16px;
+}
+
+.box-text {
+    text-align: center;
 }
 
 /* CONTAINER 2 */
@@ -235,7 +206,7 @@ small {
 .footer {
     width: 960px;
     height: 100px;
-    color: #64410b;
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
